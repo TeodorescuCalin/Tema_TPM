@@ -49,7 +49,7 @@ public class MyLock {
             if (label.get(j) > label.get(i))
                 label.set(j, label.get(j) - 1);
         }
-        label.set(i, max(label) + 1);
+        label.set(i, n);
         access.set(i, false);
         flag.set(i, false);
     }
